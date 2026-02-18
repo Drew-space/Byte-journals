@@ -58,11 +58,7 @@ const Navbar = () => {
 
         <SignedOut>
           <SignInButton mode="modal">
-            <Button
-              variant="outline"
-              size="sm"
-              className="hidden sm:flex items-center gap-2"
-            >
+            <Button size="sm" className="hidden sm:flex items-center gap-2">
               Login
             </Button>
           </SignInButton>
