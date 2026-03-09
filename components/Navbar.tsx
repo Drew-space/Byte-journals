@@ -13,14 +13,14 @@ import { LogInIcon } from "lucide-react";
 const Navbar = () => {
   const navLink = [
     { name: "Home", hrefs: "/" },
-    { name: "Dashboard", hrefs: "/" },
+    { name: "Dashboard", hrefs: "/dashboard" },
   ];
 
   return (
     <nav className="py-4 px-6 items-center justify-between flex mx-auto">
       <div className=" flex items-center gap-6">
         <Link href={"/"}>
-          <h1 className="text-3xl items-center font-extrabold tracking-tighter ">
+          <h1 className="h1  text-3xl items-center font-extrabold font-bitcount-grid-double  ">
             Byte-<span className="text-blue-500">Journals</span>{" "}
           </h1>
         </Link>
